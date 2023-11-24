@@ -3,10 +3,7 @@ from datetime import date
 from bodyTypes import UserProfile 
 class database:
     def __init__(self):
-        self.conn={"user":"root",
-                   "host":"127.0.0.1",
-                   "password":"Silent_guardian@072003",
-                   "database":"HPMS"
+        self.conn={
                    }
         self.cursor=None
         self.connObj=None
